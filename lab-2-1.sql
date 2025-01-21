@@ -22,9 +22,7 @@ SELECT
 FROM 
   teams
 WHERE 
-  wins >= 110
-AND
-  wins <= 114
+  wins >= 100
 ORDER BY 
   year ASC;
 
